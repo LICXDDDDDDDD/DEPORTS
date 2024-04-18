@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Información sobre deportes</title>
+
+    <style>
+        body {       
+            margin-bottom: 30px;
+            background-color: #AED6F1; /* Color de fondo para cada sección */
+            padding: 20px; /* Añadir espacio interno */
+            border-radius: 10px; /* Añadir bordes redondeados */
+        }
+        .tab {
+            overflow: hidden;
+            border: 1px solid #ccc;
+            background-color: #FCF3CF;
+            margin-bottom: 20px;
+            border-radius: 5px;
+        }
+        .tab button {
+            background-color: inherit;
+            float: left;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            padding: 10px 20px;
+            transition: 0.3s;
+            font-size: 18px;
+        }
+        .tab button:hover {
+            background-color: #D2B4DE;
+        }
+        .tab button.active {
+            background-color: #9B59B6;
+        }
+        .tabcontent {
+            display: none;
+            padding: 20px;
+            border-top: none;
+        }
+    </style>
+</head>
+<body>
+
+    <h1>Información sobre DEPORTES</h1>
+  <p>BIENVENID@ A MI PAGINA DE DEPORTES</p>
+  
+  <h2>Deportes</h2>
+    <img src="https://media.istockphoto.com/id/1453405732/es/foto/dise%C3%B1o-de-objetos-de-f%C3%BAtbol-3d-renderizado-realista-fondo-futurista-abstracto-ilustraci%C3%B3n-3d.jpg?s=612x612&w=0&k=20&c=PkdYQSxOViYFFO-tXUJ4hFvZU2ezVFexct1cISbXKL0=" alt="deportes">
+  
+
+
+    <!-- Pestañas -->
+    <div class="tab">
+        <button class="tablinks" onclick="openTab(event, 'futbol')">Fútbol</button>
+        <button class="tablinks" onclick="openTab(event,'baloncesto')">Baloncesto</button>
+        <button class="tablinks" onclick="openTab(event, 'tenis')">Tenis</button>
+        <button class="tablinks" onclick="openTab(event, 'voleibol')">Voleibol</button>
+        <button class="tablinks" onclick="openTab(event, 'atletismo')">Atletismo</button>
+      </div>
+
+    <!-- Contenido de las pestañas -->
+    <div id="futbol" class="tabcontent" style="display: block;">
+        <h2>Futbol</h2>
+      <img src="https://media.istockphoto.com/id/469344468/es/foto/ejecutar-el-juego.jpg?s=1024x1024&w=is&k=20&c=cWANkMCiNLefnxx8u-KBTFp7UBkLDKHjISwjvli-C0U=" alt="Imagen 1" onclick="changeSize(this)">
+        <p>REGLAS</p>
+      <p>1. Los partidos de fútbol se dividen en dos tiempos, cada uno de 45 minutos, con un descanso de 15.</p>
+<p>2. El árbitro lanza una moneda para decidir el lado de la cancha jugarán.</p>
+      <p>3. El balón está dentro del juego mientras no haya falta. La pelota está fuera de cancha si cruza la meta o la línea de banda.</p>
+      <p>4. Se marcará gol cuando el balón pasa la línea de meta y entra al arco, siempre y cuando no haya falta.</p>
+      <p>5. Se considera fuera de juego (offside) si un jugador le da pase a su compañero y éste está más cerca a la línea de meta opuesta en comparación al balón y al último adversario. En este caso, el árbitro otorgará al rival un tiro libre indirecto (pase a otro jugador).</p>
+      <p>6. Tocar el balón; saltar sobre el adversario, empujarlo, golpearlo, sujetarlo, patearlo o escupirlo; son consideradas faltas y son cobradas con tiro libre a favor del equipo afectado.</p>
+      <p>7. El árbitro muestra tarjeta amarilla para amonestar a un jugador (por infringir el reglamento) y una tarjeta roja para expulsarlo (por conducta violenta contra el adversario o impedir un gol con la mano).</p>
+<p>8. El tiro libre reanuda el juego después de una falta. Existen dos tipos:
+  <p>  a)Tiro libre directo: lanzamiento directo a la portería del equipo contrario.</p>
+      <p>b)Tiro libre indirecto: un pase a otro jugador.</p>
+  <p>9. Los penales se marcan cuando un jugador comete una infracción dentro del área que defiende y se cobra en favor del equipo contrario.</p>
+
+<p>10. Los saques reanudan el juego desde distintas partes de la cancha, por ello existen tres, con los nombres de donde se realiza:
+  <p>a)saque de banda</p>
+      <p>b)saque de meta<p>
+  <p>c)saque de esquina</p>
+      <p>MAYORES EXPONENTES</p>
+      <p>1.Cristiano Ronaldo - Portugal.</p>
+      <p>2.Lionel Messi - Argentina.</p>
+      <p>3.Diego Maradona - Argentina.</p>
+      <p>4.Pelé - Brasil.</p>
+      <p>5.Franz Beckenbauer - Alemania.</p>
+      <img src="https://a.espncdn.com/combiner/i?img=%2Fphoto%2F2021%2F0909%2Fr906715_1291x726_16%2D9.jpg&w=920&h=518&scale=crop&cquality=80&location=origin&format=jpg" alt="Imagen 1" onclick="changeSize(this)">
+      <p>LIGAS</p>
+      <p>Liga MX.</p>
+      <p>Liga Expansión MX.</p>
+      <p>Liga MX Femenil.</p>
+      <p>Liga Premiere.</p>
+      <p>Liga TDP.</p>
+      <p>Sector Amateur. BANNER.</p>
+      <img src="https://www.completesports.com/wp-content/uploads/2023/02/European-Football-Leagues.jpg?ezimgfmt=ngcb6/notWebP" alt="Imagen 1" onclick="changeSize(this)">
+      <p>TORNEOS</p>
+      <p>Copa Mundial de Beach Soccer de la FIFA Dubai (EAU) 2024™</p>
+      <p>The Best FIFA Football Awards™</p>
+      <p>Copa Mundial de Clubes de la FIFA Arabia Saudí 2023.</p>
+      <p>Copa Mundial Sub 17 de la FIFA Indonesia 2023™</p>
+      <p>Copa Mundial Femenina de la FIFA Australia & Nueva Zelanda 2023™</p>
+      <p>FIFAe Finals 2023</p>
+      <img src="https://storage.googleapis.com/static.elsoldemexico.com.mx/elesto/2023/06/Proyecto-nuevo-2-1-770x450.png" alt="Imagen 1" onclick="changeSize(this)">
+    </div>
+  
+  <div>
+   <script>
+        function changeSize(img) {
+            if (img.style.width === "30%") {
+                img.style.width = "10%";
+            } else {
+                img.style.width = "30%";
+            }
+        }
+    </script>
+    </div>
+
+
+    <div id="baloncesto" class="tabcontent">
+        <h2>Baloncesto</h2>
+      <img src="https://cdn.pixabay.com/photo/2013/03/21/15/52/basketball-95607_1280.jpg" alt="Imagen 1" onclick="changeSize(this)">
+      <p>REGLAS</p>
+      <p>1.El balón puede ser lanzado en cualquier dirección, con una o dos manos.</p>
+      <p>2.El balón puede ser golpeado en cualquier dirección, con una o las dos manos (nunca con el puño o mano cerrada).</p>
+      <p>3.Los jugadores no podrán correr con el balón. Deberán pasarlo incluso desde otro lugar en el que lo cogieron, se concederá una relativa tolerancia al jugador que en plena carrera reciba el balón y deba pararse.</p>
+      <p>4.El balón no debe llevarse en ambas manos o entre ellas. Los brazos o el cuerpo no se deben usar para sostenerlo en ningún caso.</p>
+      <p>5.Está prohibido cargar con el hombro contra un adversario, así como agarrar, empujar, poner la zancadilla o golpear de manera alguna al oponente. Toda infracción a esta regla por parte de cualquier jugador se considerará una falta y en caso de reincidencia, el infractor será eliminado hasta que se consiga un nuevo cesto. Si la intención al golpear es evidente, el jugador será eliminado por el resto del partido y no podrá ser reemplazado.</p>
+      <p>6.Golpear con el puño el balón es falta, al ser violación de las reglas 2 y 4, sancionándose del mismo modo que la regla 5.</p>
+      <p>7.Si cualquiera de los equipos hace tres faltas personales consecutivas, se contabilizará una canasta para el equipo contrario (consecutivas significa que durante ese tiempo el oponente no haya cometido ninguna falta).</p>
+      <p>8.Se contará canasta cuando el balón sea lanzado, golpeado o palmado desde el suelo hasta la cesta y se quede en ella, los defensores nunca tienen que tocar el balón o dificulten la canasta. Si el balón se queda en el borde de la cesta sin llegar a entrar y el oponente mueve la canasta, se contabilizará como punto.</p>
+      <p>9.Cuando el balón salga fuera del campo de juego, volverá al campo. La primera persona que lo toque lo lanzará al campo de juego. En caso de discusión el árbitro (auxiliar) realizará un salto entre dos. El que saca dispone de cinco segundos para hacerlo; si retiene el balón más tiempo, el balón pasará al equipo contrario. Si cualquiera de los equipos persiste en retrasar el juego, el árbitro auxiliar le señalará falta.</p>
+      <p>10.El árbitro auxiliar será el juez que anote las faltas personales y avisará al árbitro principal cuando se cometan tres faltas consecutivas. Podrá descalificar a los jugadores según lo establecido en la regla número 5.</p>
+      <p>11.El árbitro principal juzgará lo que se refiere al balón y determinará cuando esté en juego o ha salido fuera, a que equipo pertenece, además de llevar el control del tiempo. Decidirá cuándo se ha marcado un tanto y contabilizará las canastas y asimismo realizará las obligaciones habituales de un árbitro.</p>
+      <p>12.El partido constará de dos partes de 15 minutos, con 5 minutos de descanso entre las mismas.</p>
+      <p>13.El equipo que obtenga el mayor número de cestos en ese espacio de tiempo será declarado ganador. En caso de empate, si los capitanes acuerdan hacerlo, el partido se podrá continuar hasta que se marque una canasta.</p>
+      <p>MAYORES EXPONENTES</p>
+      <p>Kim Yeon-koung</p>
+      <img src="https://library.sportingnews.com/styles/crop_style_16_9_desktop/s3/2022-01/75_5hw31d1e5bds18io5xhrngg4l.jpg?itok=UKc7lPSG" alt="Imagen 1" onclick="changeSize(this)">
+      <p>LIGAS</p>
+      <p>Liga municipal femenil de voleibol 1er fuerza.</p>
+      <p>Liga municipal femenil 2da fuerza.</p>
+      <p>Liga municipal mixta empresarial de voleibol.</p>
+      <p>Liga municipal infantil - juvenil de voleibol.</p>
+      <p>Liga municipal varonil de voleibol.</p>
+      <img src="https://e00-marca.uecdn.es/assets/multimedia/imagenes/2020/01/01/15779063522682.jpg" alt="Imagen 1" onclick="changeSize(this)">
+      <p>TORNEOS</p>
+      <p>VCC | FIVB Copa Challenger de Voleibol.</p>
+      <p>CCH | Campeonato Continental de Voleibol.</p>
+      <p>OQT | WC Torneo de clasificación olímpica | Copa del Mundo.</p>
+      <p>CWCH | FIVB Campeonatos del Mundo de Clubes de Voleibol.</p>
+      <p>NLS | Temporada de la Liga Nacional.</p>
+      <img src="https://www.codegto.gob.mx/wp-content/uploads/2018/08/banner-WEB-01-2100x800.png" alt="Imagen 1" onclick="changeSize(this)">
+    </div>
+  
+  <div>
+   <script>
+        function changeSize(img) {
+            if (img.style.width === "30%") {
+                img.style.width = "10%";
+            } else {
+                img.style.width = "30%";
+            }
+        }
+    </script>
+    </div>
+
+
+    <div id="tenis" class="tabcontent">
+        <h2>Tenis</h2>
+      <img src="https://cdn.pixabay.com/photo/2021/06/04/06/54/racket-6308994_1280.jpg" alt="Imagen 1" onclick="changeSize(this)">
+       <p>REGLAS</p>
+      <p>1. Servicio</p>
+        <p>El juego comienza con un saque. Esto es una vez con la raqueta que se utiliza para poner la pelota en juego. El saque se realiza desde el lado derecho de la pista. En este caso, el primer saque de cada set se realiza desde el lado izquierdo. El servicio debe cruzar la línea de servicio y caer en el cuadro de servicio del campo contrario.</p>
+
+
+<p>2. Golpear la pelota
+  <p>El objetivo del juego es golpear la pelota de un lado a otro de la pista y obligar al oponente a no devolverlo correctamente. Esto se conoce como «punto». El primer jugador o equipo que llegue a 40 puntos y tenga una ventaja de al menos dos puntos gana el juego.</p>
+
+  <p>Si el marcador es de 40-40, se juega una deuce. En esta etapa, el que el primer jugador o equipo que consiga dos puntos consecutivos gana el juego. Es importante mencionar que la pelota se puede golpear sólo una vez por turno. Los puntos en tenis se contabilizan en 15, 30, 40 los primeros tres puntos.</p>
+
+
+<p>3. La bola no debe tocar el suelo
+  Los jugadores deben golpear la pelota sin que toque el suelo dentro de sus respectivos campos de juego. La pelota se puede golpear una sola vez antes de pasar al campo contrario. Si un jugador falla a devolver la pelota correctamente, el otro jugador gana el punto.</p>
+
+
+<p>4. La pelota no puede tocar el techo o las paredes
+  Los jugadores pueden golpear la pelota desde cualquier parte del campo de juego. Sin embargo, deben evitar que la pelota toque el techo o las paredes del campo de juego. Si la pelota toca el techo o las paredes después de haber sido golpeada por un jugador, el otro jugador gana el punto.</p>
+
+
+<p>5. No debe tocarse la red con la raqueta
+  El jugador tiene libertad para utilizar cualquier parte de la raqueta para golpear la pelota. Sin embargo, no está permitido tocar la red con la raqueta o cualquier otra parte del cuerpo durante el juego. Si un jugador toca la red con la raqueta o cualquier otra parte del cuerpo durante el juego, el otro jugador gana el punto.</p>
+
+
+<p>6. Gana el equipo que gane 6 sets
+  El juego se divide en sets. El primer jugador o equipo ganador de seis sets con una ventaja de por lo menos 2 sets gana el juego. Si el resultado es de 6-6, se juega una ronda adicional. En este caso, gana el equipo o jugador que tenga 7 puntos más la ventaja de 2 puntos.</p>
+
+
+<p>7. Los jugadores cambian de lado
+  Los jugadores de tenis deben cambiar de lado en la pista en el transcurso del partido. Esto ocurre al culminar el primero, tercero y otros sets impares. En caso de que las rondas totales sean pares no se hace cambio de posición hasta que termine el primer juego del set.</p>
+      <p>MAYORES EXPONENTES</p>
+      <p>Rafael Nadal.</p>
+      <p>Novak Djokovic.</p>
+      <p>Roger Federer.</p>
+      <img src="https://images.daznservices.com/di/library/DAZN_News/38/8c/nadal-federer-djokovic_1bls32n526w1rzk4hjjyj3e4s.jpg?t=-1334866127&w=800" alt="Imagen 1" onclick="changeSize(this)">
+      <p>LIGAS</p>
+      <p>Challengers.</p>
+      <p>ATP World Tour.</p>
+      <p>ATP 250.</p>
+      <p>ATP 500.</p>
+      <img src="https://www.fedecoltenis.com/userfiles/Ligas/Liga%20de%20Tenis%20del%20Atl%C3%A1ntico.jpg" alt="Imagen 1" onclick="changeSize(this)">
+      <p>TORNEOS</p>
+      <p>Los torneos organizados por la ATP se dividen entre los Grand Slam (hay 4 y otorgan 2000 puntos al ganador), Masters 1000 (hay 9 y otorgan 1000 puntos), ATP 500 (hay 13 y otorgan 500 puntos), ATP 250 (hay 39 y otorgan 250) Challenger Tour (hay entre 50 y 100 por todo el mundo, cada año cambia el número</p>
+      <img src="https://www.industriadeltenis.com/wp-content/uploads/2022/02/grand-slam-3-780x470.jpg" alt="Imagen 1" onclick="changeSize(this)">
+    </div>
+
+  <div>
+ <script>
+        function changeSize(img) {
+            if (img.style.width === "30%") {
+                img.style.width = "10%";
+            } else {
+                img.style.width = "30%";
+            }
+        }
+    </script>
+    </div>
+
+
+    <div id="voleibol" class="tabcontent">
+      <h2>Voleibol</h2>
+      <img src="https://media.istockphoto.com/id/1369998216/es/foto/jugadores-de-voleibol-en-acci%C3%B3n.jpg?s=612x612&w=0&k=20&c=ygf4METIV7IeNINTXGZ5_ktbLJ8oX7hktn-j9n3oQr0=" alt="Imagen 1" onclick="changeSize(this)">
+      <p>REGLAS</p>
+      <p>"Reglas básicas del voleibol"</p>
+      <p>1.El voleibol es un deporte colectivo que puede jugarse en campos interiores, al aire libre e incluso en la playa (modalidad conocida como vóley playa).</p>
+      <p>2.El terreno de juego es un campo rectangular de 18m x 9m dividido en dos partes del mismo tamaño por una línea central. Está rodeado por una zona libre de mínimo 3m de ancho en todos los lados que sobresale al área de juego.</p>
+      <p>3.A tres metros de la línea central se sitúa la línea de ataque que delimita la zona ofensiva.</p>
+      <p>4.La redes de voleibol es variable en altura. Para competiciones masculinas mide 2’43m y para competiciones femeninas 2’24m. En la parte superior de los postes se encuentran dos varillas o antenas que sobresalen 0’80m y delimitan la zona por donde ha de pasar el balón.</p>
+      <p>5.El balón es esférico y flexible, con 65-67 cm de circunferencia y 260-280 g de peso.</p>
+      <p>6.Durante el juego el balón tiene que ser golpeado continuamente, no puede ser retenido ni tomado por ningún jugador.</p>
+      <p>7.El juego consta de dos equipos y cada equipo está formado por seis jugadores en el terreno de juego y un máximo de hasta seis suplentes.</p>
+      <p>8.El contacto de los jugadores con el suelo es continuo, por lo que habitualmente utilizan protecciones en las articulaciones. La superficie no puede ser rugosa ni deslizante.</p>
+      <p>"Normas del voleibol"</p>
+      <p>Los jugadores no pueden meterse en el campo del equipo adversario ni tocar la red.</p>
+      <p>El partido está formado por tres, cuatro o cinco sets. Un equipo gana un set cuando alcanza o supera los 25 punto con una ventaja de dos. Cuando gane tres sets y en cada set gane al otro equipo por dos puntos habrá ganado el partido.</p>
+      <p>Los jugadores tienen que evitar que el balón toque el suelo dentro de su campo, ya que será punto para el equipo contrario.</p>
+      <p>Antes de empezar cada set, los dos equipos deben dar el orden de rotación. Los jugadores tienen que ir rotando sus posiciones a medida que van consiguiendo puntos.</p>
+      <p>Antes de empezar el partido, los campos se sortean y en cada ser se produce un cambio de campo, así como lo mismo con el saque inicial.</p>
+      <p>Cada equipo puede solicitar hasta dos tiempos de descanso o tiempos muertos de 30 segundos en cada set. Los tiene que pedir el entrenador o, si no estuviera, el capitán del equipo.</p>
+      <p>Para que el partido se desarrolle con total normalidad y sin incidentes, tiene que haber un equipo arbitral formado por un primer árbitro, un segundo árbitro, un anotador, un anotador asistente y dos o tres jueces de línea. Sí que es cierto que es el primer árbitro el que tiene todo el poder de decisión sobre cualquier jugada.</p>
+      <p>MAYORES EXPONENTES</p>
+      <p>"Varonil"</p>
+      <p>Gilberto Godoy Filho: Se lo conoce más como Giba y nació el 23 diciembre 1976 en Brasil.</p>
+      <p>Wilfrido León: Es un cubano que nació el 31 julio 1993.</p>
+      <p>Ivan Zaytsev: Es un jugador profesional de Rusia que se nacionalizó italiano.</p>
+      <p>"Femenil"</p>
+      <p>Kim Yeon.</p>
+      <img src="https://xn--vley-qqa.com/wp-content/uploads/los-10-mejores-jugadores-de-voleibol-masculino-de-todos-los-tiempos.jpg" alt="Imagen 1" onclick="changeSize(this)">
+      <img src="https://asianvolleyball.net/new/wp-content/uploads/2022/01/1-12.jpg" alt="Imagen 1" onclick="changeSize(this)">
+      <p>LIGAS</p>
+      <p>VCC | FIVB Copa Challenger de Voleibol.</p>
+      <p>CCH | Campeonato Continental de Voleibol.</p>
+      <p>OQT | WC Torneo de clasificación olímpica | Copa del Mundo.</p>
+      <img src="https://www.ecured.cu/images/1/1d/World_Volley_ball_League_logo_280.jpg" alt="Imagen 1" onclick="changeSize(this)">
+      <p>TORNEOS</p>
+      <p>Pro Tour Elite 16</p>
+      <p>Copa Samantha Bricio 2024</p>
+      <p>Volleyball Nations League 2024 Round Robin</p>
+      <img src="https://www.ecured.cu/images/9/90/Logo_Mundial_de_Voli.png" alt="Imagen 1" onclick="changeSize(this)">
+    </div>
+
+  <div>
+ <script>
+        function changeSize(img) {
+            if (img.style.width === "30%") {
+                img.style.width = "10%";
+            } else {
+                img.style.width = "30%";
+            }
+        }
+    </script>
+    </div>
+
+  
+   <div id="atletismo" class="tabcontent">
+      <h2>Atletismo</h2>
+     <img src="https://cdn.pixabay.com/photo/2015/03/01/22/27/women-655353_1280.jpg" alt="Imagen 1" onclick="changeSize(this)">
+      <p>REGLAS</p>
+     <p>1. Elije el carril adecuado</p>
+     <p>2. Corre en la misma dirección que los demás</p>
+     <p>3. No invadas el carril ajeno</p>
+     <p>4. Nunca te detengas en medio de la pista</p>
+     <p>5. No utilices auriculares u otros distractores</p>
+     <p>6. Adelanta de la manera correcta</p>
+      <p>MAYORES EXPONENTES</p>
+     <p>Usain Bolt</p>
+     <p>Shelly-Ann Fraser-Pryce</p>
+     <p>LaShawn Merritt</p>
+     <p>Carl Lewis</p>
+     <img src="https://images2.minutemediacdn.com/image/upload/c_fill,w_1080,ar_16:9,f_auto,q_auto,g_auto/shape%2Fcover%2Fsport%2FIan-MacNicol-Archive-48d4cf506eb6b7e9f621774f290f69c0.jpg" alt="Imagen 1" onclick="changeSize(this)">
+      <p>LIGAS</p>
+     <p>Campeonato Mundial de Atletismo.</p>
+     <p>Campeonato Mundial de Atletismo en Pista Cubierta.</p>
+     <p>Campeonato Mundial de Campo a Través.</p>
+     <img src="https://cdn2.mediotiempo.com/uploads/media/2023/08/16/delegacion-mexicana-en-el-campeonato.jpg" alt="Imagen 1" onclick="changeSize(this)">
+      <p>TORNEOS</p>
+     <p>Campeonato Mundial de Atletismo.</p>
+     <p>Campeonato Mundial de Atletismo en Pista Cubierta.</p>
+     <p>Campeonato Mundial de Campo a Través.</p>
+     <img src="https://www.informador.mx/__export/1692316485325/sites/elinformador/img/2023/08/17/atletismo_1_crop1692316421801.jpg_1970638775.jpg" alt="Imagen 1" onclick="changeSize(this)">
+    </div>
+
+  <div>
+ <script>
+        function changeSize(img) {
+            if (img.style.width === "30%") {
+                img.style.width = "10%";
+            } else {
+                img.style.width = "30%";
+            }
+        }
+    </script>
+    </div>
+
+
+    <script>
+        function openTab(evt, tabName) {
+            var i, tabcontent, tablinks;
+            tabcontent = document.getElementsByClassName("tabcontent");
+            for (i = 0; i < tabcontent.length; i++) {
+                tabcontent[i].style.display = "none";
+            }
+            tablinks = document.getElementsByClassName("tablinks");
+            for (i = 0; i < tablinks.length; i++) {
+                tablinks[i].className = tablinks[i].className.replace(" active", "");
+            }
+            document.getElementById(tabName).style.display = "block";
+            evt.currentTarget.className += " active";
+        }
+    </script>
+
+</body>
+</html>
